@@ -1,0 +1,14 @@
+@mixin flex($fd: row, $jc: space-between, $ai: center) {
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin posabs($t: 0, $l: 0, $r: auto, $b: auto) {
+    position: absolute;
+    top: $t;
+    left: $l;
+    right: $r;
+    bottom: $b;
+}

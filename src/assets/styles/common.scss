@@ -1,0 +1,22 @@
+html {
+    font-size: 18px;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+main h1 {
+    text-align: center;
+    margin: 0.4em 0;
+}
+
+main .container {
+    height: 100%;
+}
